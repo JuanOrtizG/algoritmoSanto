@@ -2,7 +2,7 @@
 ### Tipos de estrategias antirrebotes para pulsadores
 1- Filtro de paso bajo: Este sistema utiliza un filtro de paso bajo para eliminar las señales de alta frecuencia que pueden causar rebotes.
 
-2- Interruptor: Este sistema utiliza un interruptor para detectar el cambio de estado del pin.
+2- Interrupción: Este sistema utiliza una interrupción para detectar el cambio de estado del pin.
 
 3- Debounce interno: Algunos microcontroladores tienen un debouncing interno que puede utilizarse para eliminar los rebotes.
 
