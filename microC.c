@@ -14,3 +14,12 @@ while(true) {
    }
  
 }
+
+//Sistema 2 para la deteccion de pulso de boton
+if(input(pin_A1)==1){
+delay_ms(30);
+if(input(pin_A1)==1){
+output_toggle(LED);
+while(input(pin_A1)==1);
+}
+}
